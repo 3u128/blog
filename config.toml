@@ -1,4 +1,4 @@
-baseURL = "3u128.netlify.com"
+baseURL = "https://3u128.netlify.com"
 title = ""
 theme = "hugo-notepadium"
 copyright = ""
