@@ -1,60 +1,55 @@
 baseURL = "https://3u128.netlify.com"
-languageCode = "en"
-title = "3u128"
-theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
-#disqusShortname = "shortname"
-#googleAnalytics = ""
-Paginate = 5 # Number of posts per page
+title = "3u128.netlify.com"
+theme = "hugo-notepadium"
+#copyright = "Notepadium"
+
+languageCode = "eu-us"
+#hasCJKLanguage = true
+
 enableRobotsTXT = true
 
-[params.rss] # Adding this tag enables RSS feed
-includeContent = true # Includes whole content in rss
-#authorName = "Emir Ribic" # Author full name
-#authorEmail = "ribice@gmail.com" # Author email
+# Enable Disqus
+#disqusShortname = "XXX"
 
-[params.assets]
-customCSS = ["css/custom.css"]
+# Google Analytics
+#googleAnalytics = "UA-123-45"
 
-[params.info]
-adsense = "" # Adsense ID (ID only, without ca-pub-)
-#enableSocial = true # Adds OpenGraph and Twitter cards
-homeTitle = "" # Title for home page
-poweredby = true # Adds powered by hugo and kiss below Copyright
-related = true # Includes related articles at the bottom of the article
-codeCopy = true # Add copy button above code blocks
+[markup.highlight]
+codeFences = true
+noClasses = false
 
-[params.features]
-disqusOnDemand = true  # Load Disqus comments on click
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
 
+[params]
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
+#logo = ""  # if you have a logo png
+#slogan = "100% JavaScript-free"
+license = ""  # CC License
 
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
+[params.comments]
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
-[params.opengraph.twitter]
-page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+[params.math]
+enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+use = "katex"  # option: "katex", "mathjax". default: "katex"
 
-[params.social]
-#twitter = "ribicemir"
-github = "ribice"
-#email = "ribice@gmail.com"
-#linkedin = "ribice"
-#facebook = "ribice"
-#instagram = ""
-#codepen = ""
-rss = "index.xml" # Add this to show RSS button in social.
+[params.syntax]
+use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "dracula"
+darkTheme = "xcode-dark"  # apply this theme in dark mode
 
-[params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
 
-[params.matomoAnalytics]
-siteID = 1
-rootURL = "//matomo.example.com/"
+# custom navigation items
 
-[taxonomies]
-tag ="tags"
+[[params.nav.custom]]
+title = "About"
+url = "/about"
 
-[blackfriday]
-hrefTargetBlank = true
+#[[params.nav.custom]]
+#title = "Hugo"
+#url = "https://gohugo.io/"
