@@ -1,3 +1,8 @@
+---
+title: "setup ssh connetion to github"
+date: 2022-04-30
+draft: false
+---
 # usefull commands
 ```
 eval `ssh-agent -s`
