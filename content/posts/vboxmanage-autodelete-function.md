@@ -1,3 +1,5 @@
+---
+title: "vboxmanage script"
 ```
 function killvms() {   VBoxManage list runningvms | awk '{print $2;}' | xargs -I vmid VBoxManage controlvm vmid poweroff;   VBoxManage list vms | awk '{print $2;}' | xargs -I vmid VBoxManage unregistervm --delete vmid; }
 ```
