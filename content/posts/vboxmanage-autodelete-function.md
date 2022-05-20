@@ -1,5 +1,7 @@
 ---
 title: "vboxmanage script"
+description: "for frequently use vagrant may be usefull"
+date: 2022-05-20
 ---
 # vboxmanage script for stop & delete related resources
 
