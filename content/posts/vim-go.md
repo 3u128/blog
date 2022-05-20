@@ -2,6 +2,7 @@
 title: "install vim-go to neovim"
 date: 2022-05-20
 draft: false
+description: "vim-go install to neovim github.com/fatih/vim-go"
 ---
 # vim-go install to neovim github.com/fatih/vim-go
 
