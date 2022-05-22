@@ -19,7 +19,7 @@ Tip: for start plugin work - change file extention to .go
 Error message "go: go.mod file not found in current directory or any parent directory; see 'go help modules'"
 source: https://stackoverflow.com/q/66894200
 
-change
+regulate
 go mod init # <file> 
 or manually:
 go env -w GO111MODULE=off
