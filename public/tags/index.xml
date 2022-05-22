@@ -1,0 +1,187 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://3u128.netlify.com/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>eu-us</language>
+    
+        <atom:link href="https://3u128.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>people of tech</title>
+      <link>https://3u128.netlify.com/posts/people/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://3u128.netlify.com/posts/people/</guid>
+      <description>&lt;h2 id=&#34;ukrainian&#34;&gt;Ukrainian&lt;/h2&gt;
+&lt;p&gt;Maksym Vlasov
+&lt;a href=&#34;https://github.com/MaxymVlasov?tab=repositories&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://github.com/MaxymVlasov?tab=repositories&lt;/a&gt;
+
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLIsz9zLIWsDI71mpnceqPivLAX4kiWEOE&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://www.youtube.com/playlist?list=PLIsz9zLIWsDI71mpnceqPivLAX4kiWEOE&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Vlad Voloshn
+&lt;a href=&#34;https://github.com/volym3ad&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://github.com/volym3ad&lt;/a&gt;
+
+&lt;a href=&#34;https://medium.com/@vvol&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://medium.com/@vvol&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Andriy Bilous
+&lt;a href=&#34;https://dou.ua/forums/topic/35833/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://dou.ua/forums/topic/35833/&lt;/a&gt;
+
+DevOpsDays Poznań
+DevOps Days Kyiv&lt;/p&gt;
+&lt;p&gt;Anton Babenko
+&lt;a href=&#34;https://www.youtube.com/c/AntonBabenkoLive&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://www.youtube.com/c/AntonBabenkoLive&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Devops and Digital Twins</title>
+      <link>https://3u128.netlify.com/posts/devops_and_digital_twins/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://3u128.netlify.com/posts/devops_and_digital_twins/</guid>
+      <description>&lt;h2 id=&#34;devops-and-digital-twins---similarities---is-modeling-making-a-comeback-in-the-sdlc&#34;&gt;Devops and Digital Twins - Similarities - Is Modeling making a comeback in the SDLC&lt;/h2&gt;
+&lt;h2 id=&#34;by-patrick-debois&#34;&gt;by Patrick Debois&lt;/h2&gt;
+&lt;p&gt;&lt;img  src=&#34;https://www.jedi.be/blog/2022/02/18/devops-and-digital-twins-similarities/&#34;
+        alt=&#34;jedi blog&#34;/&gt;
+&lt;img  src=&#34;https://www.youtube.com/watch?v=dwKqFLiM680&#34;
+        alt=&#34;https://www.youtube.com/watch?v=dwKqFLiM680&#34;/&gt;&lt;/p&gt;
+&lt;h3 id=&#34;interesting-links-in-presentation&#34;&gt;interesting links in presentation:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Reproducible_builds&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://en.wikipedia.org/wiki/Reproducible_builds&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;compilation for proof to be deterministic&lt;/li&gt;
+&lt;li&gt;Bazel and Gitian use for automate deterministic builds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://driftctl.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://driftctl.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/snyk/driftctl&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://github.com/snyk/driftctl&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;driftctl detect changes in iaac and mannual ch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/C4_model&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://en.wikipedia.org/wiki/C4_model&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Decomposition and relationship between containers and components of the system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://localstack.cloud/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://localstack.cloud/&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;develop cloud stack offline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://netflix.github.io/chaosmonkey/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://netflix.github.io/chaosmonkey/&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;randomly terminate instances to ensure that services are fault tolerance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://gitops.tech&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://gitops.tech&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;book of CD practice declarative description state in git repositary (free pdf)&lt;/li&gt;
+&lt;li&gt;main requirements: git, kubernate cluster, minicube&lt;/li&gt;
+&lt;li&gt;no more share many credentials to various services to developers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gitops.tech/#tools&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://www.gitops.tech/#tools&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>install vim-go to neovim</title>
+      <link>https://3u128.netlify.com/posts/vim-go/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://3u128.netlify.com/posts/vim-go/</guid>
+      <description>&lt;h1 id=&#34;vim-go-install-to-neovim-githubcomfatihvim-go&#34;&gt;vim-go install to neovim github.com/fatih/vim-go&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/fatih/vim-go
+For nvim - vim-plug
+    Plug &amp;#39;fatih/vim-go&amp;#39;, { &amp;#39;do&amp;#39;: &amp;#39;:GoUpdateBinaries&amp;#39; }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Need to check $PATH&lt;/p&gt;
+&lt;p&gt;Tip: for start plugin work - change file extention to .go&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Error message &amp;#34;go: go.mod file not found in current directory or any parent directory; see &amp;#39;go help modules&amp;#39;&amp;#34;
+source: https://stackoverflow.com/q/66894200
+
+regulate
+go mod init # &amp;lt;file&amp;gt; 
+or manually:
+go env -w GO111MODULE=off
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>vboxmanage script</title>
+      <link>https://3u128.netlify.com/posts/vboxmanage-autodelete-function/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://3u128.netlify.com/posts/vboxmanage-autodelete-function/</guid>
+      <description>&lt;h1 id=&#34;vboxmanage-script-for-stop--delete-related-resources&#34;&gt;vboxmanage script for stop &amp;amp; delete related resources&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;function killvms() {   VBoxManage list runningvms | awk &amp;#39;{print $2;}&amp;#39; | xargs -I vmid VBoxManage controlvm vmid poweroff;   VBoxManage list vms | awk &amp;#39;{print $2;}&amp;#39; | xargs -I vmid VBoxManage unregistervm --delete vmid; }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;killvms provide cleaning all running vms and power off them.&lt;/p&gt;
+&lt;p&gt;Use after vagrant halt or similar things.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>usefull commands</title>
+      <link>https://3u128.netlify.com/posts/ssh-commands/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://3u128.netlify.com/posts/ssh-commands/</guid>
+      <description>&lt;h1 id=&#34;restore-deleted-file-by-git-rm-file&#34;&gt;restore deleted file by git rm file&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git rm 20220508_20h40m49s_grim.png
+git status #just see hint if forgot commands
+git reset HEAD filename
+git checkout -- filename
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>setup ssh connetion to github</title>
+      <link>https://3u128.netlify.com/posts/ssh-setup-for-github/</link>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://3u128.netlify.com/posts/ssh-setup-for-github/</guid>
+      <description>&lt;h1 id=&#34;usefull-commands&#34;&gt;usefull commands&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;eval `ssh-agent -s`
+ssh-add /home/user/.ssh/[name of private key]
+ssh -T git@github.com #test connection
+git push origin main
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenV</title>
+      <link>https://3u128.netlify.com/posts/openvino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://3u128.netlify.com/posts/openvino/</guid>
+      <description>&lt;h1 id=&#34;open-visual-inferencing-and-neural-network-optimization&#34;&gt;Open Visual Inferencing and Neural Network Optimization&lt;/h1&gt;
+&lt;p&gt;Focused around optimizing neural network inference
+Support ONNX, TF, Caffe, MXNet, xxx
+Used  ntel® CPUs, GPUs, FPGAs and Neural Compute Stick with a common API&lt;/p&gt;
+&lt;h4 id=&#34;pre-trained-models&#34;&gt;Pre-trained Models&lt;/h4&gt;
+&lt;p&gt;You can use &lt;a href=&#34;https://modelzoo.co/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://modelzoo.co/&lt;/a&gt;
+ for downloading pre-trained models already converted using the Model Optimizer.&lt;/p&gt;
+&lt;h4 id=&#34;types-of-computer-vision-models&#34;&gt;Types of Computer Vision Models&lt;/h4&gt;
+&lt;p&gt;In topic 3 models: Classification, Detection, and Segmentation.&lt;/p&gt;
+&lt;p&gt;Classification: given class of objects
+Detection: determining objects (usually in bounding box)
+Segmentation: classifying each and every pixel.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;semantic vs instance segmentation:
+
+* semantic all instance considered like one.
+* instance - separates instances of a class as separate objects.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/analytics-vidhya/image-classification-vs-object-detection-vs-image-segmentation-f36db85fe81&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://medium.com/analytics-vidhya/image-classification-vs-object-detection-vs-image-segmentation-f36db85fe81&lt;/a&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;case-studies-in-computer-vision&#34;&gt;Case Studies in Computer Vision&lt;/h4&gt;
+&lt;p&gt;SSD Single Shot MultiBox Detector&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

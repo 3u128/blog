@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.93.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>install vim-go to neovim&nbsp;&ndash;&nbsp;</title><link rel="stylesheet" href="/css/core.min.071819f6ed66384f85b06e77cb040cc8c71ceb5ac3a7d2e8b80822e731e68bc875b1b812cf942c357a7461f25d3eec89.css" integrity="sha384-BxgZ9u1mOE&#43;FsG53ywQMyMcc61rDp9LouAgi5zHmi8h1sbgSz5QsNXp0YfJdPuyJ"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="install vim-go to neovim" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name"></span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">install vim-go to neovim</h1><p class="article date">Friday, May 20, 2022</p></section><article class="article markdown-body"><h1 id="vim-go-install-to-neovim-githubcomfatihvim-go">vim-go install to neovim github.com/fatih/vim-go</h1>
+<pre tabindex="0"><code>https://github.com/fatih/vim-go
+For nvim - vim-plug
+    Plug &#39;fatih/vim-go&#39;, { &#39;do&#39;: &#39;:GoUpdateBinaries&#39; }
+</code></pre><p>Need to check $PATH</p>
+<p>Tip: for start plugin work - change file extention to .go</p>
+<pre tabindex="0"><code>Error message &#34;go: go.mod file not found in current directory or any parent directory; see &#39;go help modules&#39;&#34;
+source: https://stackoverflow.com/q/66894200
+
+regulate
+go mod init # &lt;file&gt; 
+or manually:
+go env -w GO111MODULE=off
+</code></pre></article>
+</div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/posts/devops_and_digital_twins/"><span class="iconfont icon-article"></span>Devops and Digital Twins</a></p><p><a class="link" href="/posts/vboxmanage-autodelete-function/"><span class="iconfont icon-article"></span>vboxmanage script</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright"></p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank" rel="noopener noreferrer">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank" rel="noopener noreferrer">Notepadium</a></p></div>
+</section></body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.93.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>vboxmanage script&nbsp;&ndash;&nbsp;</title><link rel="stylesheet" href="/css/core.min.071819f6ed66384f85b06e77cb040cc8c71ceb5ac3a7d2e8b80822e731e68bc875b1b812cf942c357a7461f25d3eec89.css" integrity="sha384-BxgZ9u1mOE&#43;FsG53ywQMyMcc61rDp9LouAgi5zHmi8h1sbgSz5QsNXp0YfJdPuyJ"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="vboxmanage script" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name"></span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">vboxmanage script</h1><p class="article date">Friday, May 20, 2022</p></section><article class="article markdown-body"><h1 id="vboxmanage-script-for-stop--delete-related-resources">vboxmanage script for stop &amp; delete related resources</h1>
+<pre tabindex="0"><code>function killvms() {   VBoxManage list runningvms | awk &#39;{print $2;}&#39; | xargs -I vmid VBoxManage controlvm vmid poweroff;   VBoxManage list vms | awk &#39;{print $2;}&#39; | xargs -I vmid VBoxManage unregistervm --delete vmid; }
+</code></pre><p>killvms provide cleaning all running vms and power off them.</p>
+<p>Use after vagrant halt or similar things.</p>
+</article>
+</div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/posts/vim-go/"><span class="iconfont icon-article"></span>install vim-go to neovim</a></p><p><a class="link" href="/posts/ssh-commands/"><span class="iconfont icon-article"></span>usefull commands</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright"></p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank" rel="noopener noreferrer">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank" rel="noopener noreferrer">Notepadium</a></p></div>
+</section></body>
+
+</html>
