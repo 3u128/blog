@@ -1,5 +1,5 @@
-baseURL = "https://3u128.netlify.com"
-#title = "3u128.netlify.com"
+baseURL = "https://arta.pp.ua"
+title = "Yevhen Lytviak blog"
 theme = "hugo-notepadium"
 #copyright = "Notepadium"
 
