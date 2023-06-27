@@ -19,4 +19,13 @@ chmod +x ~/.docker/cli-plugins/docker-buildx
 docker buildx version
 ```
 source: https://dev.to/luizkowalski/how-to-migrate-from-docker-desktop-to-colima-on-a-mac-m1-48ae   
+
 ```docker buildx build . -f ubuntu.Dockerfile -t sw:86 --output type=docker```  
+
+If some errors when you want to remove colima and docker and install docker do this:  
+```
+brew uninstall --force --formula docker 
+brew uninstall --force --cask docker
+brew cleanup
+brew install --cask docker
+```
